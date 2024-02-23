@@ -1,0 +1,31 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #ff8c15, #ef7070);
+}
+
+.container{
+    margin: 30px 0;
+    color: #fff;
+}
+
+.col-md-4{
+    margin: 20px 0;
+}
+img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
